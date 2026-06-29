@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Island IT Solutions</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-wrap">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+        <rect width="36" height="36" rx="6" fill="#00B4D8" opacity="0.15"/>
+        <text x="18" y="24" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="700" font-size="16" fill="#00B4D8">IT</text>
+      </svg>
+      <span>Island IT Solutions</span>
+    </a>
+    <nav><ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="blog.html">Blog</a></li><li><a href="booking.html">Book</a></li><li><a href="faq.html">FAQ</a></li><li><a href="reviews.html">Reviews</a></li>
+    </ul></nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="btn-theme">☀️</button>
+      <a href="booking.html" class="btn-book">Get Help Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main>
+  <div id="login-section"><div class="admin-login"><div class="admin-card">
+    <h1>Admin Login</h1>
+    <p>// Enter your credentials to access the dashboard.</p>
+    <form id="admin-login-form">
+      <div class="form-group"><label for="admin-pw">Password</label><input type="password" id="admin-pw" placeholder="Password" autocomplete="current-password"></div>
+      <p id="login-error" style="color:#DC2626;font-size:0.82rem;margin-bottom:0.75rem;font-family:var(--font-mono);"></p>
+      <button type="submit" class="btn-primary" style="width:100%;">Log In →</button>
+    </form>
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-top:1rem;text-align:center;font-family:var(--font-mono);">// Demo: admin123</p>
+  </div></div></div>
+  <div id="admin-dash" class="admin-dash">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;flex-wrap:wrap;gap:1rem;">
+      <div><h1 style="font-size:1.7rem;color:var(--text);">// Dashboard</h1><p style="color:var(--text-muted);font-family:var(--font-mono);">Island IT Solutions — Admin Panel</p></div>
+      <a href="index.html" style="font-size:0.85rem;color:var(--accent);font-family:var(--font-mono);">← View Site</a>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-num">31</div><div class="stat-label">Service Tickets (Month)</div></div>
+      <div class="stat-card"><div class="stat-num">5</div><div class="stat-label">Open Tickets</div></div>
+      <div class="stat-card"><div class="stat-num">$12,450</div><div class="stat-label">Revenue (Month)</div></div>
+      <div class="stat-card"><div class="stat-num">4.8★</div><div class="stat-label">Avg Rating</div></div>
+    </div>
+    <div class="admin-table-wrap"><h2>Recent Bookings</h2><table>
+      <thead><tr><th>Client</th><th>Service</th><th>Date</th><th>Amount</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Sandra Kim</td><td>Water Damage Repair</td><td>Jun 28, 2025</td><td>$245</td><td><span class="badge badge-green">Completed</span></td></tr>
+        <tr><td>Aloha Gifts LLC</td><td>Office Network Setup</td><td>Jun 27, 2025</td><td>$890</td><td><span class="badge badge-green">Completed</span></td></tr>
+        <tr><td>Tom Fletcher</td><td>Virus Removal</td><td>Jun 30, 2025</td><td>$95</td><td><span class="badge badge-yellow">Scheduled</span></td></tr>
+        <tr><td>Pacific Realty</td><td>IT Support Contract</td><td>Jul 1, 2025</td><td>$299/mo</td><td><span class="badge badge-green">Active</span></td></tr>
+        <tr><td>Janet Park</td><td>Data Recovery</td><td>Jul 2, 2025</td><td>$185</td><td><span class="badge badge-yellow">In Progress</span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="admin-table-wrap"><h2>Recent Messages</h2><table>
+      <thead><tr><th>From</th><th>Subject</th><th>Date</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>business@kaimukicafe.com</td><td>POS system down — urgent help needed</td><td>Jun 29, 2025</td><td><span class="badge badge-red">Unread</span></td></tr>
+        <tr><td>tony.m@gmail.com</td><td>Laptop screen replacement quote</td><td>Jun 28, 2025</td><td><span class="badge badge-green">Replied</span></td></tr>
+        <tr><td>admin@hilohomes.com</td><td>Smart home setup inquiry</td><td>Jun 27, 2025</td><td><span class="badge badge-yellow">Pending</span></td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</main>
+<script src="js/main.js"></script>
+
+  <!-- Powered by Design Holistically -->
+  <footer style="background:#111;color:#aaa;text-align:center;padding:1.5rem;font-size:0.85rem;font-family:sans-serif;">
+    <p>&copy; 2024. Powered by <a href="https://designholistically.com" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;">Design Holistically</a>. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
