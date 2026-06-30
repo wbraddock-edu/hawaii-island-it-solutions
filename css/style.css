@@ -42,7 +42,7 @@ a { color: var(--accent); text-decoration: none; }
 .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 0.5rem; min-width: 44px; min-height: 44px; justify-content: center; align-items: center; }
 .hamburger span { width: 24px; height: 2px; background: #8B949E; border-radius: 2px; transition: var(--transition); }
 @media (max-width: 768px) { .nav-links { display: none; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: #0D1117; border-bottom: 1px solid #30363D; padding: 1rem 1.25rem; gap: 0.5rem; } .nav-links.open { display: flex; } .hamburger { display: flex; } .btn-book { display: none; } }
-.hero { position: relative; min-height: 88vh; display: flex; align-items: center; background: #0D1117; overflow: hidden; }
+.hero { position: relative; min-height: 88vh; display: flex; align-items: center; background: transparent; overflow: hidden; }
 .hero-grid { position: absolute; inset: 0; background-image: linear-gradient(#30363D 1px, transparent 1px), linear-gradient(90deg, #30363D 1px, transparent 1px); background-size: 40px 40px; opacity: 0.3; }
 .hero-glow { position: absolute; width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(0,180,216,0.2) 0%, transparent 70%); top: -100px; right: -100px; }
 .hero-content { position: relative; z-index: 2; max-width: 1280px; margin: 0 auto; padding: 4rem 1.25rem; }
