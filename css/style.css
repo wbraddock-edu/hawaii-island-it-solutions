@@ -183,3 +183,10 @@ td { padding: 0.7rem 0.75rem; border-top: 1px solid var(--border); color: var(--
 .page-hero p { font-size: 1rem; color: #8B949E; max-width: 560px; font-family: var(--font-mono); }
 .breadcrumb { font-size: 0.82rem; color: #8B949E; margin-bottom: 1rem; font-family: var(--font-mono); }
 .breadcrumb a { color: var(--accent); }
+
+/* Hero background image */
+.hero { position: relative; overflow: hidden; min-height: 90vh; display: flex; align-items: center; }
+.hero-bg { position: absolute; inset: 0; z-index: 0; }
+.hero-bg img { width: 100%; height: 100%; object-fit: cover; }
+.hero-overlay { position: absolute; inset: 0; z-index: 1; background: linear-gradient(135deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.35) 100%); }
+.hero .container, .hero-content { position: relative; z-index: 2; }
